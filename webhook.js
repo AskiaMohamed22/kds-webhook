@@ -29,7 +29,7 @@ app.post("/webhook", async (req, res) => {
 
       if (user) {
         await axios.patch(
-          `https://api.adalo.com/v0/apps/${process.env.ADALO_APP_ID}/collections/9lzcwhourspi8r9xm5cw87c2g/${user.id}`,
+          `https://api.adalo.com/v0/apps/${process.env.ADALO_APP_ID}/collections/t_413bc1e32a8d470f8c22e0a0dc3b66f8/${user.id}`,
           { isPaid: true },
           {
             headers: {
